@@ -29,4 +29,5 @@ resource "google_storage_bucket" "git-test-vasu-bucket" {
   name = "api-test-bucket-git"
   location = "us-east1"
   storage_class = "REGIONAL"
+  #desc
 }
